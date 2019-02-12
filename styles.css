@@ -120,6 +120,7 @@ html {
   transition: .5s;
   border: none;
   margin-left: 10px;
+  cursor: pointer;
 }
 .menu li .search:hover {
   transform: scale(1.2);
@@ -827,7 +828,7 @@ html {
   transform: rotate(-360deg) scale(1.3);
 }
 .refresh a:active {
-  transform: scale(0.9);
+  transform: rotate(-720deg) scale(0.9);
   opacity: .7;
 }
 .product-page-exclusive {
