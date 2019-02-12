@@ -120,6 +120,7 @@ html {
   transition: .5s;
   border: none;
   margin-left: 10px;
+  cursor: pointer;
 }
 .menu li .search:hover {
   transform: scale(1.2);
