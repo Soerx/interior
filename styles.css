@@ -833,3 +833,58 @@ html {
 .product-page-exclusive {
   margin-bottom: 0;
 }
+.locationWrapper {
+  margin-top: 71px;
+  margin-bottom: 122px;
+  display: flex;
+  justify-content: center;
+}
+.locationWrapper .location {
+  text-align: center;
+  margin: 0 15px;
+  border-width: 1px;
+  border-color: #9c9c9c;
+  border-style: solid;
+  background-color: #ffffff;
+  opacity: 0.9;
+  width: 368px;
+  height: 368px;
+  padding: 48px 34px;
+  transition: .5s all;
+}
+.locationWrapper .location p.subtitle {
+  color: #6c6c6c;
+  margin-top: 23px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.locationWrapper .location p.locinfo {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+}
+.locationWrapper .location p.locinfoAddress {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+}
+.locationWrapper .location h3 {
+  margin-top: 34px;
+  color: #212121;
+  font-size: 21.91px;
+  font-weight: 700;
+  transform: scaleX(1.0041);
+  text-transform: uppercase;
+}
+.locationWrapper .location img {
+  transition: .5s;
+}
+.locationWrapper .location:hover {
+  transition: .5s all;
+  box-shadow: 2px 4px 6.85px 2.15px rgba(33, 33, 33, 0.35);
+}
+.locationWrapper .location:hover img[alt="location"] {
+  margin-top: -10px;
+  margin-bottom: 5px;
+  transform: scale(1.1);
+}
