@@ -104,7 +104,6 @@ html {
 .home-page-header {
     background: url(img/slider-img.jpg);
     height: 800px;
-    position: relative;
 }
 
 .header {
@@ -118,6 +117,12 @@ html {
         margin-bottom: 44px;
         margin-left: @marginLeft;
     }
+}
+
+.showroom-page-header {
+    height: unset;
+    padding-bottom: 29px;
+    background-color: #fff;
 }
 
 .logo {
@@ -841,4 +846,36 @@ html {
 
 .product-page-exclusive {
     margin-bottom: 0;
+}
+
+.navbar {
+    background-color: #f4f4f4;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    ul {
+        display: flex;
+        text-transform: uppercase;
+        font-size: 18px;
+        /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        li {
+            &:first-child a {
+                padding: 0 15px 0 0;
+            }
+            &:last-child a {
+                padding: 0 0 0 15px;
+            }
+            a {
+                color: #6c6c6c;
+                padding: 0 15px;
+                transition: all .5s .1s;
+                line-height: 70px;
+                &:hover {
+                    color: @colorBlack;
+                }
+            }
+        }
+    }
 }
